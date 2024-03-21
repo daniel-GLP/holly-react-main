@@ -20,7 +20,7 @@ function Article({
   }
 
   return (
-    <article className={cn('article text-center lg:w-full lg:py-20 lg:text-left', className)}>
+    <article className={cn('article text-center lg:w-full lg:py-20 lg:text-left', className)} style={{padding:'0rem'}}>
       <div className="mx-auto w-full max-w-6xl px-6">
         <div className="relative lg:flex">
           <ArticleContent>

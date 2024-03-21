@@ -1,7 +1,7 @@
 import { ScrollToTop } from '@/components/scroll-to-top'
 import AboutPage from '@/routes/about'
 import ContactPage from '@/routes/contact'
-import FaqsPage from '@/routes/faqs'
+import FaqsPage from '@/routes/resources'
 import HomePage from '@/routes/home'
 import SupportPage from '@/routes/support'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -14,6 +14,7 @@ import Journals from './components/dashboard/dashboard-pages/journals';
 import Repositories from './components/dashboard/dashboard-pages/repositories';
 import NewsUpdates from './components/dashboard/dashboard-pages/news-updates';
 import Journal from './components/dashboard/dashboard-pages/journal';
+import ResourcesPage from '@/routes/resources'
 
 
 
@@ -42,6 +43,7 @@ export default function App() {
           <Route path="about" element={<AboutPage />} />
           <Route path="contact" element={<ContactPage />} />
           <Route path="faqs" element={<FaqsPage />} />
+          <Route path="resources" element={<ResourcesPage/>} />
           <Route path="support" element={<SupportPage />} />
           <Route path="dashboard-main" element={<DashboardMain />} />
           <Route path="analytics" element={<Analytics />} />         

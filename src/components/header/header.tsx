@@ -19,10 +19,14 @@ function Header({ title }: { title?: string }) {
               <span>{title}</span>
             </Link>
           </h1>
-          <nav className="flex flex-col items-center mt-10 gap-6 lg:order-1 lg:items-end">
+          <nav className="flex flex-col items-center mt-16 gap-6 lg:order-1 lg:items-end">
             <Menu className="flex gap-4" />
+           
           </nav>
+         
         </div>
+        <hr  style={{width:'105%', marginTop:'1rem'}}/>
+      
       </div>
     </header>
   )

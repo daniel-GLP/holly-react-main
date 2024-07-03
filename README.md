@@ -1,6 +1,7 @@
-# Holly
+# African Journal Visibility Platform
 
-A React implementation of [Davide Pacilio's](https://cruip.com/) free landing page template, [Holly](https://lukemcdonald.github.io/holly-react/).
+A React implementation of African Journal Visibility Platform Project.
+Initial web template is courtesy of free landing page template, [Holly](https://lukemcdonald.github.io/holly-react/).
 
 # Getting Started
 
